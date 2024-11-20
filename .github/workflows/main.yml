@@ -22,10 +22,13 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
+        working-directory: ./encryption-tool-frontend
         run: npm install
 
       - name: Run tests
+        working-directory: ./encryption-tool-frontend
         run: npm test -- --watchAll=false
 
       - name: Build app
+        working-directory: ./encryption-tool-frontend
         run: npm run build
