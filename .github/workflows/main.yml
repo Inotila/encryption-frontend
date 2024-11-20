@@ -1,4 +1,4 @@
-name: encryption-tool-frontend
+name: React CI/CD
 
 on:
   push:
