@@ -70,7 +70,7 @@ function App() {
                     <textarea
                         value={input} // Controlled component bound to input state
                         onChange={(e) => setInput(e.target.value)} // Update state on user input
-                        rows="4"
+                        rows="1"
                         cols="50"
                     />
                 </label>
